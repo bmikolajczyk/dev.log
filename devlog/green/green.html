@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+font-family: Arial;
+
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Navbar container */
+.navbar {
+	overflow: hidden;
+	background-color: #333;
+	font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+<body>
+
+
+
+<div class="header">
+  <h1>dev.log Green</h1>
+  <p>Brian Mikolajczyk</p>
+</div>
+
+
+
+<div class="navbar">
+
+
+<div class="dropdown">
+<button class="dropbtn">dev.log
+<i class="fa fa-caret-down"></i>
+</button>
+<div class="dropdown-content">
+<a href="magenta/magenta.html">Magenta</a>
+<a href="red/red.html">Red</a>
+<a href="orange/orange.html">Orange</a>
+<a href="yellow/yellow.html">Yellow</a>
+<a href="#">Green</a>
+<a href="#">Teal</a>
+<a href="#">Blue</a>
+<a href="#">Indigo</a>
+<a href="#">Violet</a>
+<a href="#">Bronze</a>
+<a href="#">Silver</a>
+<a href="#">Gold</a>
+</div>
+</div>
+
+
+
+<div class="dropdown">
+<button class="dropbtn">Projects
+<i class="fa fa-caret-down"></i>
+</button>
+<div class="dropdown-content">
+<a href="../Website/home2.html">Game Design 1: Physical Prototype of Digital Game</a>
+<a href="#">Game Design 2: Card Game</a>
+<a href="#">Game Design 3: Modified Board Game</a>
+
+
+</div>
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+<div class="row">
+<div class="leftcolumn">
+<div class="card">
+<h2><a href="https://www.ted.com/talks/jane_mcgonigal_gaming_can_make_a_better_world/discussion?language=en#t-628451">Gaming can make a better world (TED talk)</a></h2>
+      <p>
+	I feel that the perspective of the general public towards gamers is that of a condescending nature. Phrases 	like “you’re wasting your time” or “you’ll rot your brain” are just some of the over generalizations made 		towards gamers. Though I want to agree with the speaker on her perspective, and in many cases do 		agree with her, I can’t help yet ask myself “Why do gamers enjoy games more than real life?” Is it because 	they lack real world skills? No, I agree with the speaker in this case in that games present themselves as a 	more interesting reality then the reality of our real world. I agree that we need to start making reality more 	interesting. However, I feel that we need to start to teach gamers to use their untapped skills that they 		acquire from gaming and apply them to the real world. The speaker partially touched on the idea of gaming 	reforming our education system. I agree with her that gaming needs to evolve into something much more 	than just a past time. Moreover, I agree with the speaker that gamers need to find a way to use the skills 	that make them great at gaming and use them in an everyday life scenario. Because the skills that gamers 	possess from gaming are valuable life skills to have. However, it’s my opinion that gamers aren’t properly 	motivated in real life scenarios. Because the real world isn’t that interesting to them. The video suggests 		reasons as for why gamers are better at gaming then the real world. To make a long story short, gamers 	choices and actions in games are designed with a purpose meaning that the gamers have meaningful 		impact in the game world. The gamer is of higher value in the game world. The speaker also stated that 		gamers will do better in a game when they believe that they can win. I don’t disagree with the speaker, but I 	think that this problem stems to larger audience than just gamers. Confidence, meaningful work, and work 	that they enjoy and makes a difference.
+	</p>
+
+    </div>
+
+	<div class="card">
+	<h2>Game Design Workshop: Chapter 4 Working with Dramatic Elements</h2>
+      
+	<p>
+	I feel that I grasped the book’s concept of challenge. This chapter discusses challenge in games. I agree 	with the chapter in that challenge in games needs to be more than just ‘a task that is hard to accomplish’, 	the player needs to be satisfied with the completion of the task. Otherwise the challenge is no different than 	everyday life problems. Challenges need to be designed in a way that is meets the challenger’s skill level. 	“You don’t have a high school football team play against a pro team. The game would be a blowout. The 		challenge wouldn’t be fair. The chapter suggests that placing things that the player enjoys within the 		challenge will make the challenge more enjoyable. Such as maintaining a narrative in the challenge if the 		player enjoys the narrative of your game. The chapter speak briefly of the idea of “The Paradox of 			Control.” From my understanding this is the idea that the player knows when they’re in control of the game 	when the realize that they have the ability to influence a part of the game. The chapter discusses the 	“autotelic” nature of games. Meaning that games serve no purpose outside of giving us entertainment. This 	made me question the reasoning for creating games. To what end am I creating this game? 
+	</p>
+
+	<p>
+	The chapter discusses play. A quote that the chapter uses to describe play struck me “Play actually is 		meaningless behavior. You do it for its intrinsic value to you.” By this statement alone play is just 			entertainment. However, the chapter discusses how play is to children. Play to children is work, it is how 	they learn the shape of the world around them. Such as social order. The chapter takes the concept of 		play and turns its ‘playfulness’ into a utility of sorts. For example, the chapter suggests that play can be a 	tool for experimentation. One idea that comes to mind is football practice. They play the game to test new 	plays and strategies. 
+
+	</p>
+
+	</div>
+	</div>
+
+
+
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div class="fakeimg" style="height:100px;">Image</div>
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p>Image</p></div>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Some text..</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+	<h2>End of dev.log Green</h2>
+</div>
+
+
+
+</body>
+</html>
