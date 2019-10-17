@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+font-family: Arial;
+
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Navbar container */
+.navbar {
+	overflow: hidden;
+	background-color: #333;
+	font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+<body>
+
+
+
+<div class="header">
+  <h1>dev.log Blue</h1>
+  <p>Brian Mikolajczyk</p>
+</div>
+
+
+
+<div class="navbar">
+
+
+<div class="dropdown">
+<button class="dropbtn">dev.log
+<i class="fa fa-caret-down"></i>
+</button>
+<div class="dropdown-content">
+<a href="../magenta/magenta.html">Magenta</a>
+<a href="../red/red.html">Red</a>
+<a href="../orange/orange.html">Orange</a>
+<a href="../yellow/yellow.html">Yellow</a>
+<a href="../green/green.html">Green</a>
+<a href="../teal/teal.html">Teal</a>
+<a href="../blue/blue.html">Blue</a>
+<a href="../indigo/indigo.html">Indigo</a>
+<a href="../violet/violet.html">Violet</a>
+<a href="../bronze/bronze.html">Bronze</a>
+<a href="../silver/silver.html">Silver</a>
+<a href="../gold/gold.html">Gold</a>
+</div>
+</div>
+
+
+
+<div class="dropdown">
+<button class="dropbtn">Projects
+<i class="fa fa-caret-down"></i>
+</button>
+<div class="dropdown-content">
+<a href="../Website/home2.html">Game Design 1: Physical Prototype of Digital Game</a>
+<a href="#">Game Design 2: Card Game</a>
+<a href="#">Game Design 3: Modified Board Game</a>
+
+
+</div>
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+<div class="row">
+<div class="leftcolumn">
+<div class="card">
+<h2>BLACKOUT</h2>
+      <p>Okay so let&rsquo;s talk about the most important thing in the world right now. No, it&rsquo;s not the card game project that is due this week. It&rsquo;s the completely random blackhole in Fortnite. As the author of the article stated that a changed to the game has been suspected now for some time. With the ever-changing narrative I feel that Epic games made a great narrative and business decision with the blackhole. For me personally I don&rsquo;t play Fornite, but I can see the anticipation amongst fans of the game. The players have been awaiting a new season for a while now and instead of just taking the game down for maintenance the studio developers chose to build the narrative and leave the players on an amazing cliff hanger. I mean talk about an empire strikes back or thanos snap moment. I wish that some of my favorite games would have did that. However, I also agreed that the blackhole was an awesome reboot. Bringing in fresh new players to a franchise and building the game along with it is smart. It keeps the game fresh and up to date. Though the timing of the event is a little concerning. I mean how many people were one of two people left and about to possibly win the game and the blackhole happened. That would piss me off too if the game suddenly just got sucked me into a blackhole. Talk about the dog ate my homework. I disagree with some people as the author state that the game lost millions of dollars in the down time. It seems to me that the developers of the game took great time and passion into creating the game and making it last for years. A few million lost then is nothing compared to the millions to come in the future. Those people are just greedy. Anyway I loved the idea of seasonal reboot and think that other game developers will likely mimic the same business decision. </p>
+      <p><br>
+        
+      </p>
+
+    </div>
+
+	<div class="card">
+	<h2>Call of Duty: Mobile</h2>
+      
+	<p>You have to download this mobile game. I don't &quot;love&quot; Call of Duty its okay. However when you're board on campus and have nothing to do this game offers so much fun for a mobile game. I was sceptical at first too, but this game truly has suprised me on how much it mimics basic COD. The mechanics remain the same as classic COD multiplayer, point &amp; shoot, walk, run, throw grenade, switch weapons, call in score streaks, etc. However, how does one place so many controller on your touchscreen and maintain the same COD feel. This game is super addicting at class and at work. I definetly recommend playing this game on the go. I had no trouble playing with other players on my Galaxy Note10+, I recommend the advanced shooting settings option in the game.The core difference in the game than normal COD is that the player uses their thumbs to shoot. In some cases the shooting will start as soon as your cross airs are on the target. Which is nice. I have to say that I probably am better at COD mobile than regular COD.</p>
+	<p>Negatives. Now as you would expect from a mobile game this game drains your battery life like a mosquito on flesh. If you are using mobile data then the game drain that as well. Lucky I knew better and used wifi, but still no one want to have that happen. And at least with my experience with the game the opposing players are like two year olds in terms of skill level. I'm not joking in some games I went like 34 kills and 3 deaths. MAybe I'm just that good. The amount of solicitation that the players receive is unparrallel to any other COD game. Every time you either load the game our end a match the game will then ask you to buy  microtransactions. It definetly left a distastfull feeling in me. However, I did enjoy the game alot. And would recommend it to anyone.<br>
+	  </p>
+
+
+	</div>
+	</div>
+
+
+
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div class="fakeimg" style="height:100px;">Image</div>
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg"><p><img src="title.jpg" height="173" Width="307"></p></div>
+      <div class="fakeimg"><p><img src="loadout.jpeg" height="168" Width="300"></p></div>
+      <div class="fakeimg"><p><img src="play.jpeg" height="109" Width="218"></p></div>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Some text..</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+	<h2>End of dev.log Blue</h2>
+</div>
+
+
+
+</body>
+</html>
+
