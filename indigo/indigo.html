@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+font-family: Arial;
+
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Navbar container */
+.navbar {
+	overflow: hidden;
+	background-color: #333;
+	font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+<body>
+
+
+
+<div class="header">
+  <h1>dev.log Indigo</h1>
+  <p>Brian Mikolajczyk</p>
+</div>
+
+
+
+<div class="navbar">
+
+
+<div class="dropdown">
+<button class="dropbtn">dev.log
+<i class="fa fa-caret-down"></i>
+</button>
+<div class="dropdown-content">
+<a href="../magenta/magenta.html">Magenta</a>
+<a href="../red/red.html">Red</a>
+<a href="../orange/orange.html">Orange</a>
+<a href="../yellow/yellow.html">Yellow</a>
+<a href="../green/green.html">Green</a>
+<a href="../teal/teal.html">Teal</a>
+<a href="../blue/blue.html">Blue</a>
+<a href="../indigo/indigo.html">Indigo</a>
+<a href="../violet/violet.html">Violet</a>
+<a href="../bronze/bronze.html">Bronze</a>
+<a href="../silver/silver.html">Silver</a>
+<a href="../gold/gold.html">Gold</a>
+</div>
+</div>
+
+
+
+<div class="dropdown">
+<button class="dropbtn">Projects
+<i class="fa fa-caret-down"></i>
+</button>
+<div class="dropdown-content">
+<a href="../Website/home2.html">Game Design 1: Physical Prototype of Digital Game</a>
+<a href="#">Game Design 2: Card Game</a>
+<a href="#">Game Design 3: Modified Board Game</a>
+
+
+</div>
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+<div class="row">
+<div class="leftcolumn">
+<div class="card">
+<h2>Card Game Feedback</h2>
+      <p>
+		  <img src="FEEDBACK/form1/f1front.jpg" height="300.5" width="225.5">
+		  <img src="FEEDBACK/form1/f1back.jpg" height="300.5" width="225.5">
+		  <img src="FEEDBACK/form2/f2front.jpg" height="300.5" width="225.5">
+		  <img src="FEEDBACK/form2/f2back.jpg" height="300.5" width="225.5"><img src="FEEDBACK/form3/f3front.jpg" height="300.5" width="225.5">
+        <img src="FEEDBACK/form3/f3back.jpg" height="300.5" width="225.5">
+        <img src="FEEDBACK/form4/f4front.jpg" height="300.5" width="225.5">
+        <img src="FEEDBACK/form4/f4back.jpg" height="300.5" width="225.5">
+      </p>
+      <p>&nbsp;</p>
+      <h2>What you able to learn how to play quickly?</h2>
+      <p>Players most commonly answered &quot;No&quot; for this question. Understandable, this had primarily to do with the amount of rules set in stone for the game. However, the rules were necessary to overcome certain flaws in the mechanics from earlier play testing. Perhaps, the wording of some of the rules made it difficult for the players to learn. However, I believe that the game isn't intended to be a short and simple game. Nor did we intend to make it as such.</p>
+      <h2>What is the objective of the game?</h2>
+      <p>All of the players understood the objective &quot;thank god&quot; it wasn't a difficult concept. Wipe out the other players from play.</p>
+      <h2>Now that you have had a chance to play the game, is there any information that would have been useful to you before starting?</h2>
+      <p>Many people stated that the order in which turns go was unclear. I don't know why so many people didn't understand this. I specifically wrote in the rules that &quot;players will take turns challenging other players by going clockwise starting at the left of the dealer. Either these people don't know what right and left are, clockwise and counter-clockwise, or they didn't even read the rules. However, the one person that actually commented on something other than the turn rotation said the rules must be read thoroughly and completely, which I agree with there are alot of rules.</p>
+      <h2>What did you like BEST about the game? Why?</h2>
+      <p>Most people said the buff systems were clever, and the game was original.</p>
+      <h2>What did you like LEAST about the game? Why? Was anything confusing?</h2>
+      <p>Everyone said that the there were too many rules and they were confusing. I understand that there were alot of rules, but we had a 5 person group; the 1 (ME) that created the game idea and 4 that modified the mechanics through playtesting. The 4 that modified the game mechanics read the rules and understood them before even asking questions and playtesting the game. And we had 14 other playtesters say that the rules were complex, but if read completely understandable. This came from gamers and my family all of which never played nor heard of the game before. We did this to test the wording of the rules so that the average person could comprehend them. So either the language and terminology is misunderstood or people didn't actually play the game. There weren't too many rules. There was just enough to keep the game interesting and working. You try to create an RPG buff system into a card game. However, I digress. Maybe I'm just biased.  </p>
+      <p>&nbsp;</p>
+</div>
+
+	<div class="card">
+	<h2>World Box</h2>
+      
+	<p>
+	This game is a simulation mobile game. The game basically has you playing god and creating world landscapes with wildlife and 
+	humanoids and civilizations. As civilizations progress and grow you can basically do what ever you want to them. Help them along their way, annihilate them, or just plain have some fun and cause a nuclear holocaust. The core mechanics of the game are adding people animals/creatures, landscapes, apocalytic forces that threaten the world. The game changes you can add a devastating weather and climate changes to the environment that has serious impacts to the survival of the species. However, the game has predators and prey in terms of wildlife (wolves will attack anything, and sheep are seen as food), Humans, Elves, Dwarves, and Orcs can be added in the world, each of which hate one another. making it interesting as they begin to grow and fight over resources in the game. Aestically, the game is not so pleasing. The aesthetics are super pixelly. But, the game does have some very interesting AI mechanics which I liked. I especially enjoyed the Czar Bomba just to screw with the factions that were growing to powerful. I also liked instead of starting a new game players could just wipe the world clean of all life and matter easily like a Thanos snap. And start a new world. Definetly the game is interesting, I would recommend cheching it out. I could see that I student might have made this game as a portfolio piece top demonstrate game engine skills and AI skils howeverI digress. I loved the fact that the player had control over whole dynamic of the game. Aside from the individual characters in the game the player could effectively change the entire narative of the game just by adding a lighting strike that would cause a wildfire then destroyin the vegetation therfore killing of the wild life then by killing off the humanoids forcing them to start a caniblistic cycle and warfare like tendencies until they either are extinct or the sick mind of the player playing god actually throws the world a bone and stops the fire by causing it to rain and therefore allowing the soil to regrow the food therefore repopulating the world or just puts the world out of their misery. The dynamic in the game is amazing for how simple the aesthetics really are.</p>
+
+
+	</div>
+	</div>
+
+
+
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div class="fakeimg" style="height:100px;">Image</div>
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p>Image</p></div>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Some text..</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+	<h2>End of dev.log Indigo</h2>
+</div>
+
+
+
+</body>
+</html>
+
