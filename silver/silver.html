@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+font-family: Arial;
+
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Navbar container */
+.navbar {
+	overflow: hidden;
+	background-color: #333;
+	font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+<body>
+
+
+
+<div class="header">
+  <h1>dev.log Silver</h1>
+  <p>Brian Mikolajczyk</p>
+</div>
+
+
+
+<div class="navbar">
+
+
+<div class="dropdown">
+<button class="dropbtn">dev.log
+<i class="fa fa-caret-down"></i>
+</button>
+<div class="dropdown-content">
+<a href="../magenta/magenta.html">Magenta</a>
+<a href="../red/red.html">Red</a>
+<a href="../orange/orange.html">Orange</a>
+<a href="../yellow/yellow.html">Yellow</a>
+<a href="../green/green.html">Green</a>
+<a href="../teal/teal.html">Teal</a>
+<a href="../blue/blue.html">Blue</a>
+<a href="../indigo/indigo.html">Indigo</a>
+<a href="../violet/violet.html">Violet</a>
+<a href="../bronze/bronze.html">Bronze</a>
+<a href="../silver/silver.html">Silver</a>
+<a href="../gold/gold.html">Gold</a>
+</div>
+</div>
+
+
+
+<div class="dropdown">
+<button class="dropbtn">Projects
+<i class="fa fa-caret-down"></i>
+</button>
+<div class="dropdown-content">
+<a href="../Website/home2.html">Game Design 1: Physical Prototype of Digital Game</a>
+<a href="#">Game Design 2: Card Game</a>
+<a href="#">Game Design 3: Modified Board Game</a>
+
+
+</div>
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+<div class="row">
+<div class="leftcolumn">
+<div class="card">
+<h2>Exercise 11.2: Decision Types</h2>
+      <p> Take your original game and categorize the types of<br>
+      </p>
+      <p>decisions you ask your players to make. Are there</p>
+      <p>any hollow, obvious, or uninformed decisions? If so,</p>
+      <p>try to redesign these choice</p>
+      <p>MY RESPONSE:</p>
+      <p> For this exercise I will be using my Space Shooter game for another class. Basically its a top down space shooter and the object is to avoid getting hit by asteroids and score as many points as possible.</p>
+      <p>Critical : I would say that the most critical decision in the game is movement. If the player doesn't move then eventually the player will get hit by an asteroid and blow up.</p>
+      <p>Important: Shooting the asteroids would be the next most important step because movement won't always be enough to avoid death in the game. Shooting ensures that the asteroids are removed from the game protect the player from impact.&nbsp;</p>
+      <p>Inconsequential: Currently in the game players can score points in the game however it doesn't impact the game in any way. They don't allow the player to win. And infact the player can't win at all currentl, there aren't any win conditions. The waves of asteroids never stop. So in a way the shooting and moving don't provide a means to an end. However I digress.&nbsp; &nbsp; &nbsp;</p>
+      <p>&nbsp;</p>
+</div>
+
+	<div class="card">
+	<h2>Chapter 11: Fun and Accessibility</h2>
+      
+	<p> Is your game fun? God I hope so. It is from my perspective that this chapter discussed the elements in games that make them fun. Though this sounds simple to identify; it is, but it is even harder to implement. I found that the dilemmas were especially interestin. Primarily, because of the heavy stratey involved with them. In my personal experience I have found that story, is a very important factor to consider when determining whether I find a game fun or not. To me games are alot like movies and the story is very important to me. Improving player choices is something that I found can be under estimated interms of difficulty to make. I never thought of categorizing the decisions that players can make in terms of importance. Deteremining which decisions are the most important to the game, can help reveal which decisions could be game breaking if removed.</p>
+	<p>&nbsp;I found dilemmas interesting, however even harder&nbsp; to implement. I especially loved the prisoners dilemma and not because mario and luigi were convicted of crimes which was hilarious by the way. Depending on the players perspective of the situation the Prisoner's Dilemma could force the player to cut their losses or maximize their gains. Such dilemmas as this leads the player to consequences forseen or not; wanted or not.Consequences can take a story in multiple directions and motivate a player to make decisions these being direct consequences or 'Rewards and Punishment." Rewards are vital to the fun of the game for obvious reasons. But punishments, or the consequences we want to avoid are vital as well. They give the player something to fear. Adding risk to the game making it fun. I found this very interesting because though we don't like punishmens they add even more value to the rewards.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+    </div>
+	</div>
+
+
+
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div class="fakeimg" style="height:100px;">Image</div>
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p>Image</p></div>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Some text..</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+	<h2>End of dev.log Silver</h2>
+</div>
+
+
+
+</body>
+</html>
+
