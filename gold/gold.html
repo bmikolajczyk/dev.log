@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+font-family: Arial;
+
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Navbar container */
+.navbar {
+	overflow: hidden;
+	background-color: #333;
+	font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+<body>
+
+
+
+<div class="header">
+  <h1>dev.log Gold</h1>
+  <p>Brian Mikolajczyk</p>
+</div>
+
+
+
+<div class="navbar">
+
+
+<div class="dropdown">
+<button class="dropbtn">dev.log
+<i class="fa fa-caret-down"></i>
+</button>
+<div class="dropdown-content">
+<a href="../magenta/magenta.html">Magenta</a>
+<a href="../red/red.html">Red</a>
+<a href="../orange/orange.html">Orange</a>
+<a href="../yellow/yellow.html">Yellow</a>
+<a href="../green/green.html">Green</a>
+<a href="../teal/teal.html">Teal</a>
+<a href="../blue/blue.html">Blue</a>
+<a href="../indigo/indigo.html">Indigo</a>
+<a href="../violet/violet.html">Violet</a>
+<a href="../bronze/bronze.html">Bronze</a>
+<a href="../silver/silver.html">Silver</a>
+<a href="../gold/gold.html">Gold</a>
+</div>
+</div>
+
+
+
+<div class="dropdown">
+<button class="dropbtn">Projects
+<i class="fa fa-caret-down"></i>
+</button>
+<div class="dropdown-content">
+<a href="../Website/home2.html">Game Design 1: Physical Prototype of Digital Game</a>
+<a href="#">Game Design 2: Card Game</a>
+<a href="#">Game Design 3: Modified Board Game</a>
+
+
+</div>
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+<div class="row">
+<div class="leftcolumn">
+<div class="card">
+<h2>Billiards</h2>
+      <p>
+	BIlliards is a game based on physics and geometry. The goal of this game is to knock 7 balls (either solid or striped) in the holes and then to win the game by knocking the 8 ball. However if you knock the 8 ball in before the other 7 balls then you immiediatly lose. Or if your opponent does this first then you also lose. So this makes the game pretty interesting because you have knock the balls in with a que ball which changes position constantly as both players are using the same que ball from where it lands. So the game is entirely reliant on force, friction, angels, etc. I loved how this game forced the player to consider math in on the strategy of the game. What makes this game challenging isn't the heavy physics and math envolved, but rather the fact that you have to use physics and math from eye balling the shots. And that infact is the challenge. Of course the average human eyes are gonna be flawed not every one is a computer. And I have found the to human error and imperfection of the game is what makes this game the most fun. However, a super awesome shots that sink multiple balls at once are pretty savage as well. I have found the reward from the player trusting their gut is pretty fun as well.  <br>
+
+	</p>
+
+    </div>
+
+	<div class="card">
+	<h2>Google Stadia</h2>
+      
+	<p>
+	Stadia is Google's new streaming service that allows players to stream videogames from a data-center in Silicon Valley to your TV, Computer, Mobile Phone. The whole unique purpose of Stadia is that it doesn't use a console, nor does the player have sit through hours of downloads to play games like Red Dead Redemption 2, or Destiny 2. All you need is a decent Wifi connection and boom your playing your favorite games in seconds straight from a Chrome browser. The concept alone is revolutional and could change the gamoing industry forever. I got the chance to use Stadia and let me be honest this is an awesome streaming service and concept. However, though the idea is revolutionary the service does have some significant flaws. Such as quality internet connection. If the player is experiencing heavy internet traffic in their area and not using at least 35Mbps then they will experience some serious input lag. Now given the service is less than a week old the service quality will without a doubt improve. What struck me the most was that single and multiplayer conponents of games didn't change the level of input lag. The amount of lag experience was enitrely determined by internet spikes and network traffic. This though seems irrelevant is especially important. If Stadia were to fix the network connection to streaming service, Stadia would become a serious competitor with the console and pc giants. I have found that Stadia could become a very important milestone to the evolution of Video Games.<br>
+	</p>
+      
+
+
+	</div>
+	</div>
+
+
+
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div class="fakeimg" style="height:100px;">Image</div>
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p>Image</p></div>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Some text..</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+	<h2>End of dev.log Gold</h2>
+</div>
+
+
+
+</body>
+</html>
